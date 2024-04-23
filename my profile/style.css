@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #01081b;
+  --color-secondary: #1f010a;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -78,6 +78,7 @@ section {
   animation: appear 1s ease-in-out;
   transform: translateY(0) scaleY(1);
 }
+
 @keyframes appear {
   0% {
     transform: translateY(-100%) scaleY(0);
@@ -961,4 +962,3 @@ section {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
